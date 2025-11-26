@@ -1,0 +1,148 @@
+body{
+    margin:0;
+    font-family: Arial;
+    background:white;
+}
+
+
+.banner{
+    text-align:center;
+    padding:20px;
+    background:white;
+    border:3px solid #8BC34A;
+    border-radius:20px;
+    margin:20px;
+}
+.banner h1{
+    font-size:50px;
+    color:#4CAF50;
+    margin:0;
+}
+.banner p{
+    margin-top:5px;
+    font-size:20px;
+    color:#009900;
+}
+
+
+.menu{
+    text-align:center;
+    background:#CCFF99;
+    margin:20px;
+    padding:15px;
+    border-radius:20px;
+    border:2px solid #7FAF41;
+}
+
+img{
+    vertical-align: middle;
+    width:40px;
+    height:40px;
+}
+.menu a{
+    margin:0 25px;
+    font-size:18px;
+    text-decoration:none;
+    color:#006600;
+    font-weight:bold;
+}
+
+
+.contenedor{
+    display:flex;
+    width:95%;
+    margin:auto;
+    gap:25px;
+}
+
+
+.izquierda{
+    width:25%;
+}
+
+
+.login{
+    background:#CCFF99;
+    padding:15px;
+    border-radius:20px;
+    border:2px solid #7FAF41;
+}
+.login h3{
+    font-size:18px;
+    margin-bottom:10px;
+}
+.login input{
+    width:100%;
+    padding:7px;
+    margin-bottom:10px;
+    border-radius:6px;
+}
+.login button{
+    padding:7px 15px;
+    background:#6AA84F;
+    color:white;
+    border:none;
+    border-radius:8px;
+}
+
+
+.sticky{
+    background:#D4FF88;
+    width:180px;
+    padding:10px;
+    margin:25px 0;
+    transform:rotate(-8deg);
+    border-radius:10px;
+}
+
+.sticky h4{
+    margin:0;
+    font-size:18px;
+}
+
+.sticky p{
+    margin:5px 0;
+}
+
+
+.derecha{
+    width:75%;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:25px;
+}
+
+
+.cuadro{
+    background:white;
+    border:3px solid #7FAF41;
+    padding:15px;
+    border-radius:25px;
+}
+.cuadro h3{
+    font-size:20px;
+    margin-bottom:10px;
+}
+.cuadro img{
+    width:100%;
+    height:130px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:10px;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: #7FAF41;
+    margin: 20px 0; 
+}
+
+footer{
+    border: 2px solid #7FAF41;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #CCFF99;
+}
